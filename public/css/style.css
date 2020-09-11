@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Kite One', sans-serif;
+  background: linear-gradient(#1b262c, #0f4c75, #00b7c2);
+}
+
+h1{
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+.loader{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(255, 255, 255, 0.8);
+}
+
+.loader img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container{
+  width: 81% !important;
+  /* background: black; */
+}
+
+.image-container{
+  /* margin: 10px 30%; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  top: 20px;
+  bottom: 20px;
+
+}
+
+.image-container img{
+  width: 100%;
+  margin-top: 5px;
+  padding: 5%;
+  border: solid white;
+  background: linear-gradient(#318fb5, #00bcd4, #a2d5f2);
+  border-radius: 2%;
+  box-shadow: white 20px;
+}
+
+/* Media*/
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 20px
+  }
+  .image-container img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
